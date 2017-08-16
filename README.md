@@ -5,3 +5,7 @@ Some cool hacks
     ```
     git reset --soft @~ && git commit --amend --no-edit && git push -f
     ```
+* For git merge conflicts refer
+    ```
+    https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts
+    ```
