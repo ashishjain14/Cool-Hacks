@@ -17,3 +17,9 @@ Some cool hacks
    git merge upstream/master
    git push origin master
    ```
+* Run vscode from a terminal in Mac
+   Add the following in .bash_profile
+   ```
+   code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+   ```
+   and now you can run code, code . etc
